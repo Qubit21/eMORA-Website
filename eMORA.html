@@ -1,38 +1,74 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en" >
 <head>
-<meta charset="utf-8">
-<title>eMORA TOKEN</title>
-	<link rel="stylesheet" href="eMORA.css">
+  <meta charset="UTF-8">
+  <title>eMORA TOKEN</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="eMORA.css">
+
 </head>
-<section class="showcase">
-			<div class="video-container">
-				<video src="https://tenor.com/embed.js" autoplay muted loop></video>
-			</div>
-			<div class="content">
-				<h1>Shoot For The Stars</h1>
-				<h3>Full screen video landing page</h3>
-				<a href="#about" class="btn">Read More</a>
-			</div>
-		</section>
-
-		<section id="about">
-			<h1>About</h1>
-			<p>
-				This is a landing page with a full screen video background. Feel free to
-				use this landing page in your projects. keep adding sections, change the
-				video, content , etc
-			</p>
-
-			<h2>Follow Me On Social Media</h2>
-
-			<div class="social">
-			<a href="https://twitter.com/traversymedia" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
-				<a href="https://facebook.com/traversymedia" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
-				<a href="https://github.com/bradtraversy" target="_blank"><i class="fab fa-github fa-3x"></i></a>
-				<a href="https://www.linkedin.com/in/bradtraversy" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-			</div>
-		</section>
 <body>
+<!-- partial:index.partial.html -->
+<!-- Hero -->
+
+<section class="et-hero-tabs">
+	<img src="./img/pxArtPaimon1.png">
+  <h1>eMORA Token</h1>
+<h3>THE MOST REVOLUTIONARY TOKEN IN ALL OF TEYVAT</h3>
+    <div class="et-hero-tabs-container"> <a class="et-hero-tab" href="#tab-es6">ABOUT</a>
+      <a class="et-hero-tab" href="#tab-flexbox">GETTING STARTED</a>
+      <a class="et-hero-tab" href="#tab-react">ADD TO METAMASK</a>
+      <a class="et-hero-tab" href="#tab-angular">SOCIAL MEDIA</a>
+      <a class="et-hero-tab" href="#tab-other">DISCLAIMER</a>
+      <span class="et-hero-tab-slider"></span>
+    </div>
+</section>
+
+  <!-- Main -->
+  <main class="et-main">
+    <section class="et-slide" id="tab-es6">
+      <h1>About</h1>
+      <h3>eMORA is a decentralised token built on BEP-20. With eMORA, you can easily pay for your mora meats, sweet madams, chicken-mushroom skewers so whale all the eMORA you want!</h3>
+
+    </section>
+    <section class="et-slide" id="tab-flexbox">
+      <h1>Getting Started</h1>
+      <h3>How to buy eMORA</h3>
+      <h3><strong>Step1:</strong> Install MetaMask. Open your browser and visit <a href="https://metamask.io/">metamask.io</a> to download the MetaMask extention.</h3>
+      <h3><strong>Step 2:</strong> Send BNB to your MetaMask wallet from your existing wallet (e.g. Binance, or trust Wallet).</h3>
+      <h3><strong>Step 3:</strong> Connect MetaMask to <a href="https://pancakeswap.finance/swap">Pancakeswap.finance</a>.&nbsp;&nbsp;</h3>
+      <h3><strong>Step 4:</strong> Paste the eMORA contract address (0xBe7934b91F07d8B1960631fcb570e29d1a1aF19b) to swap $BNB for $MOR.</h3>
+      <h3><strong>Step 5:</strong> Sit back and pull for some waifus while eMORA goes to the moon.&nbsp;&nbsp;</h3>
+    </section>
+    <section class="et-slide" id="tab-react">
+      <h1>Add To MetaMask</h1>
+      <h3><button onclick="addTokenFunction()" class="add">Add Token To MetaMask</button></h3>
+    <a href="https://pancakeswap.finance/swap"><img src="./img/pxArts.png"></a> </section>
+    <section class="et-slide" id="tab-angular">
+      <h1>Social Media</h1>
+		<h3>
+		   <ul class="social-icons">
+        <li><a href="https://twitter.com/eMORAtoken" class="social-icon" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/eMORAtoken" class="social-icon" target="_blank"> <i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://twitter.com/eMORAtoken" class="social-icon" target="_blank"> <i class="fa fa-rss"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCXkgPJd9AQBHLQE5RSkgLig" class="social-icon" target="_blank"> <i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCXkgPJd9AQBHLQE5RSkgLig" class="social-icon" target="_blank"> <i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCXkgPJd9AQBHLQE5RSkgLig" class="social-icon" target="_blank"> <i class="fa fa-github"></i></a></li>
+    </ul>
+		</h3>
+<!-- partial -->
+  <script  src="./script.js"></script>
+		
+    </section>
+    <section class="et-slide" id="tab-other">
+      <h3>Disclaimer</h3>
+<p>The naming of this token is  satire  and is not in any way asscociated with miHoYo, HoYoverse, or Genshin Impact. By purchasing eMORA, you agree that you are not purchasing a security or investment contract and you agree to hold the team harmless and not liable for any losses or taxes you may incur. Although eMORA is a community driven DeFi Ecosystem and not a registered digital currency, always make sure that you are in compliance with local laws and regulations before you make any purchases. Cryptocurrencies are not legal tender and are not investments</p>
+<img src="./img/pxArtPaimon2.png">
+    </section>
+	  
+</main>
+<!-- partial -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script><script  src="eMORA.js"></script>
+
 </body>
 </html>
