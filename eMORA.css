@@ -168,6 +168,18 @@ img {
 
 }
 
+.et-hero-tabs h4,
+.et-slide h4 {
+  font-size: 1.7vw;
+  letter-spacing: 0.1rem;
+  opacity: 0.6;
+  width: 1000px;
+  border: 15px;
+  padding: 20px;
+  margin: 20px;
+
+}
+
 .et-hero-tabs-container {
   display: flex;
   flex-direction: row;
